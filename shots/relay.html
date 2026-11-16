@@ -1,6 +1,6 @@
 <!doctype html><meta charset="utf-8"><title>relay</title><body>relay
 <script>
-const names=['iphone63_1_menu','iphone63_2_worlds','iphone63_3_boss','iphone63_4_press','iphone63_5_upgrades','ipad_1_menu'];
+const names=['iphone63_1_menu','iphone63_2_worlds','iphone63_3_boss','iphone63_4_press','iphone63_5_upgrades','ipad_1_menu','ipad_2_worlds','ipad_3_boss','ipad_4_upgrades'];
 const target=window.opener||window.parent;
 (async()=>{for(const n of names){const b=await (await fetch(n+'.png')).blob(); target.postMessage({kind:'shot',name:n,blob:b},'https://appstoreconnect.apple.com');} document.body.textContent='sent '+names.length;})();
 </script>
