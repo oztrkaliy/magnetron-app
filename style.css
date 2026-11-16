@@ -1,0 +1,6 @@
+:root{--bg:#14161a;--fg:#e9e6e1;--muted:#a49e95;--accent:#ff8a1e}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+main{max-width:720px;margin:0 auto;padding:32px 16px 64px}
+h1{color:var(--accent);margin-bottom:4px}h2{margin-top:32px}
+a{color:var(--accent)}.muted{color:var(--muted);font-size:14px}
+hr{border:0;border-top:1px solid #2a2d33;margin:40px 0}
